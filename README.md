@@ -1,2 +1,1 @@
-"# integralspython" 
-Calculating integrals and plotting functions using numpy and matplot lib
+Program calculating integrals and plotting functions using numpy and matplotlib
