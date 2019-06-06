@@ -18,13 +18,13 @@ def graph_plotting(limit1, limit2): #setting graph
     plt.grid(True)
     plt.show()
 
+
 def rectangle_integral(limit1, limit2, precision): #at this point i don't know how to solve problem with calculating if we have functions like 1/x etc
     height = float((limit2 - limit1) / precision)
     sum = 0
     for i in range(0, precision+1):
         sum += fun(limit1 + i*height) * height
     print(sum)
-
 
 
 def trapezium_integral(limit1, limit2, precision): #at this point i don't know how to solve problem with calculating if we have functions like 1/x etc
